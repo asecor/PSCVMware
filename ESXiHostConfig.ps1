@@ -33,4 +33,4 @@ $vswitch = Get-VirtualSwitch | Select -Property name #get vswitches
 [array]$vswitch1nics = (Read-Host "Enter vSwitc1 NICs - comma separated")#.Split(",") | %{$_.Trim()} #specify (read-host) vswitch1 nics
 
 do {$vswitch -match "vSwitch0
-#>
+#> 
